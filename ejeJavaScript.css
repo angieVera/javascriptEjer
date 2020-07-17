@@ -1,0 +1,268 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.principal {
+    background-image: url(logo.png);
+    background-repeat: repeat-x;
+    size: 100%;
+	border-top: 20px solid black;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid black;
+	color: black;
+}
+
+.principal .formulario .boton {
+	background: none;
+	border: 1px solid black;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+
+form{
+        width:295px;
+    }
+
+    ul{
+        list-style:none;
+    }
+
+    .contendor-inputs{
+        width:200px;
+        display:block;
+        margin:10px;
+        float:left;
+    }
+
+	.formularioF{
+		width:200px;
+        display:block;
+        margin:10px;
+		float:left;
+		align-content: center;
+	}
+
+	.container{
+		width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+	position: relative;
+    top: 61px;
+    left: -248px;
+}
+	
+	#inputs label{
+		width:72px;
+	font-weight:bold;
+	display:inline-block;
+	}
+	#inputs input[type="number"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+#acciones button{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+.form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:black;
+	
+	position: relative;
+    top: -199px;
+	left: 228px;
+}
+
+#inputs2 label{
+	
+		width:72px;
+	font-weight:bold;
+	display:inline-block;
+	
+}
+#inputs2 input[type="text"],
+input[type="password"]
+{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+#acciones2 button{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+.form-register{
+	padding: 250px;
+	max-width: 400px;
+	background-color: #E7E7E7;
+	margin: 0 auto;
+	height: 67px;
+    padding-top: 17px;
+    position: relative;
+    top: -161px;
+}
+
+.form-register input{
+	margin-bottom: 15px;
+	font-family: "Roboto", sans-serif;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
+	border: none; 
+	color: #525c66; 
+	font-size: 1em;
+	resize: horizontal;
+}
+
+.form-register button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+
+.contendor-inputs {
+    width: 206px;
+    display: block;
+    margin: -6px;
+    float: left;
+    position: relative;
+    left: -17px;
+    top: 25px;
+}
+
+.contendor-inputs button{
+	display: block;
+background-color: #0095eb;
+padding: 10px 45px 10px 45px;
+border: 0;
+font-size: 1em; 
+color: 	white;
+font-family: "Roboto", sans-serif;}
+
+.contendor-inputs1 {
+    padding: 355px;
+    max-width: 392px;
+    background-color: #E7E7E7;
+    margin: 29px auto;
+    height: 78px;
+    padding-top: 15px;
+    position: relative;
+    top: -161px;
+    LEFT: 334PX;
+}
+.contendor-inputs1 input {
+    margin-bottom: 11px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    color: #525c66;
+    font-size: 1em;
+    resize: horizontal;
+    width: 252px;
+    position: relative;
+    top: 6px;
+    left: -85px;
+}
+.contendor-inputs1 button{
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}

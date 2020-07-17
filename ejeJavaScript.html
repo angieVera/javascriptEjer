@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="ejeJavaScript.css">
+    <title>Tareas</title>
+</head>
+
+<body>
+    <div class="principal">
+        <div class="wrap">
+            <form action="formulario" action="">
+                <input type="text" id="tareaInput" placeholder="agrega la tarea">
+                <input type="button" class="boton" id="btn-agregar" value="agregar">
+            </form>
+        </div>
+    </div>
+
+
+    <div class="tareas">
+        <div class="wrap">
+            <ul class="lista" id="lista">
+                <li><a href="#">1 Hola como estas.</a></li>
+                <li><a href="#">2 bicicletas de todos los estilos.</a></li>
+                <li><a href="#">3 marcos y repuestos.</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="inputs">
+            <div>
+                <label for="abonos">Digite su abono</label>
+                <input type="number" name="abonos" id="abonos">
+            </div>
+            <div>
+                <label for="prestamos">Digite su préstamo</label>
+                <input type="number" name="prestamos" id="prestamos">
+            </div>
+        </div>
+        <div id="acciones">
+            <button>Enviar nuevo registro</button>
+        </div>
+
+
+        <div id="results">
+            <h3>El total entre préstamos y abonos es: <span>0</span></h3>
+            <div id="historico"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <form style="color: blueviolet;background-color: greenyellow;"class="form" >
+        <div id="inputs2">
+            <div>
+                <label for="name">Digite su Nombre</label>
+                <input type="text" placeholder="name" id="minom" name="nom" >
+            </div>
+            <div>
+                <label for="password">Digite su Contraseña</label>
+                <input type="password" placeholder="lo otro" id="password" name="contraseña" id="password">
+            </div>
+        </div>
+        <div id="acciones2">
+            <button class="btn_validar_login">Validar usuario</button>
+        </div>
+       
+    </form><br><br><br><br>
+
+    <section>
+        <h1 style="text-align:left;left: 149px;">Formulario de registro</h1>
+        <form action="registrar.php" method="POST" class="form-register" onsubmit="return validarFormu();">
+            <div class="contendor-inputs">
+                <input type="text" id="nombre" placeholder="nombre">
+                <input type="text" id="apellido" placeholder="apellido">
+                <input type="text" id="correo" placeholder="correo">
+                <button>registrar</button>
+
+                <!--<input type="submit" value="registrar" class="btn-enviar">-->
+            </div>
+        </form>
+    </section><br><br><br><br>
+
+
+    <section>
+        <h1 class="FormularioF "style="left: 503px;
+        position: relative;
+        TOP: -163PX;">Formulario Informacion personal</h1>
+        <form action="registro.php" method="POST" class="form-register1" onsubmit="return formuIn();">
+            <div class="contendor-inputs1">
+                <input type="text" id="nombre1" placeholder="nombre">
+                <input type="text" id="telefono" placeholder="telefono">
+                <input type="text" id="correo" class="JS-correo" placeholder="correo">
+                <input type="text" id="direccion" placeholder="direccion">
+                <input type="text" id="profesion" placeholder="profesion">
+                <input type="text" id="edad" placeholder="edad">
+
+
+              <!--  <input type="submit" value="Enviar" class="btn-enviar">-->
+                <button>Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <script src="ejeJavaScript.js"></script>
+</body>
+
+</html>
